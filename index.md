@@ -12,9 +12,9 @@ humantime: "9:00am - 4:30 pm"    # human-readable times for the workshop (e.g., 
 startdate: 2019-03-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-03-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Tyler Pearson", "Logan Cox"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Toni Hoberecht", "Krista Kezbers"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes:  "https://pad.carpentries.org/2019-03-14-ou-tulsa-dc"           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -702,10 +702,8 @@ please preview your site before committing, and make sure to run
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
-<p>We use <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> and the 
-<a href="https://figshare.com/articles/Portal_Project_Teaching_Database/1314459">Portal Project dataset</a>
-throughout this lesson. See <a href="../setup.html">Setup</a> for
-instructions on how to download the data, and also how to install DB Browser for SQLite.</p>
+<p>We use <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a>. <a href="http://sqlitebrowser.org/dl">Dowload</a> and follow the install proceedures for your OS.  
+</p>
 
 <!-- 
   <div>
