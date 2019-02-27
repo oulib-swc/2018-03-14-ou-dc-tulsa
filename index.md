@@ -45,7 +45,7 @@ information.
 
 <h2 id="register">Registration Information</h2>
 
-<p> Information on how to register for this workshop and any links can appear here at the top of the course website.</p>
+<p> <a href='https://outlibrary.co1.qualtrics.com/jfe/form/SV_2i2399BDpf0VN7T'>Registration</a> for this workshop is <a href='https://outlibrary.co1.qualtrics.com/jfe/form/SV_2i2399BDpf0VN7T'>required</a>. Any questions regarding registation and/or the workshop can be sent to the contacts listed below. </p>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
